@@ -1,0 +1,109 @@
+body {
+  background-image: url('https://connor-sm.github.io/lzb_law_html/images/nza_background.jpg');
+}
+
+.container {
+  background-color: white;
+  margin: auto;
+  margin-bottom: 10%;
+  box-shadow: 5px 10px black;
+  padding: 50px;
+}
+
+@media screen and (max-width: 800px) {
+.navbar>ul>li {
+   clear:both;
+  }
+}
+
+.navbar>ul>li {
+  float:left;
+  list-style-type: none;
+  text-align: center;
+  padding: 0 20px 0 20px;
+}
+
+.divider {
+  color:lightgrey;
+}
+
+li>a {
+  color:black;
+}
+
+.navbar {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  width: 100%;
+}
+
+.main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.forest>img {
+  width: 100%;
+  border: 3px solid black;
+  outline-style: double;
+  outline-color: black;
+  outline-offset: 5px;
+}
+
+.news{
+  background-color: maroon;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 525px;
+  overflow: scroll;
+  padding: 10px;
+}
+
+.news-title {
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.welcome{
+  overflow: hidden;
+  padding: 20px 0px 20px 0px;
+  margin: 10% 0 10% 0;
+}
+
+.contact {
+  font-size:90%;
+}
+
+footer {
+  width: 100%;
+}
+
+.bottomNav {
+  border-top: 3px solid black;
+  width: 100%;
+  padding: 10px;
+}
+
+.bottomNav>ul {
+  margin: 0 20% 0 20%;
+}
+
+@media screen and (max-width: 800px) {
+.bottomNav>ul>li  {
+   clear:both;
+  }
+}
+
+.bottomNav>ul>li {
+  float:left;
+  list-style-type: none;
+  font-size: 70%;
+  margin:0px 5px 0px 5px;
+}
+
+.footer-copyright {
+  clear:both;
+  font-weight: lighter;
+  font-size: 70%;
+}
